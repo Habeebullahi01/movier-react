@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+# Movie finder App, created with React.
+
+Using TMDB API, the app gets a list of movies and renders them. I just did the project again from scratch using React library this time. I'm learning React while working on a project at the same time.
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

@@ -1,0 +1,22 @@
+.load_view {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  position: relative;
+}
+
+.load_view .element {
+  width: 15em;
+  height: 22em;
+  margin: 1em;
+  /* padding: .5em; */
+  background-color: rgba(128, 0, 128, 0.39);
+  text-align: center;
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* color: black; */
+}

@@ -1,0 +1,71 @@
+.movieBody {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  position: relative;
+}
+.card {
+  width: 15em;
+  height: 22em;
+  margin: 1em;
+  /* padding: .5em; */
+  background-color: rgb(128, 0, 128);
+  text-align: center;
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: black;
+}
+.card .title {
+  height: 10%;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+.card .title h3 {
+  margin: 0;
+}
+.card .card-overlay {
+  color: white;
+}
+/* .title h2 {
+    width: 40%;
+    margin: auto;
+} */
+/* .title span {
+    width: 50%;
+    margin: auto;
+} */
+.card .image-holder {
+  width: 100%;
+  height: 80%;
+}
+.card .image-holder img {
+  width: 100%;
+  height: 100%;
+}
+
+.card .card-overlay {
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: 0.5s ease-in-out;
+}
+.card:hover .card-overlay {
+  width: 100%;
+}
+.controls {
+  position: absolute;
+  bottom: 0;
+}
+.controls span {
+  cursor: pointer;
+}
