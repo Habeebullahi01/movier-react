@@ -1,7 +1,16 @@
 .main h1 {
-    text-align: center;
+  text-align: center;
 }
-.main img {
-    margin: auto;
-    text-align:center;
+.main .image_holder {
+  margin: auto;
+  text-align: center;
+  width: 100%;
+}
+.image_holder img {
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .main .image_holder {
+    width: 70%;
+  }
 }
